@@ -1,0 +1,209 @@
+﻿@page { size: 8.5in 11in; margin: 2cm }
+
+@media handheld{
+   body {
+    width: auto; /* Ширина страницы */
+   }
+} 
+
+@media print { /* Стиль для печати */
+    body {
+     font-family: Times, 'Times New Roman', serif; 
+     color: black;
+    }
+   }
+body {
+    background-image:
+    url("http://www.kensmithbasses.com/wp-content/uploads/2015/12/Grey-Radial-Gradient-Background-10.jpg ");
+       color:white;
+       font-family: Comic Sans MS, Comic Sans, cursive;
+     }
+
+
+a    {
+text-decoration:none
+     }
+
+hr {
+    width: 270px;
+    margin-bottom: 30px;
+}
+a {
+    color:rgb(192, 40, 20);
+   }
+
+p a {
+    cursor: help;
+}   
+
+p a:hover {
+   color: yellow;
+   }
+
+p  {
+    margin-left: 25px;
+    word-spacing:5px;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgba(0, 0, 0, 0.411);
+}
+
+li {
+    float: left;
+    font-size: 14pt;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(180, 36, 79);
+}
+
+.active {
+    background-color: #A21;
+}
+
+#header{
+    width: auto;
+    height: 140px;
+    background-image: url(https://wallpaperplay.com/walls/full/d/3/1/15817.jpg);
+  }
+
+img {
+   border-radius: 25px;
+   -ms-border-radius: 25px;
+}
+
+a img {
+    cursor: help;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+#customers td, #customers th {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #a09191;}
+
+#customers tr:nth-child(2n+1){background-color: #a78585;}
+
+#customers tr:hover {background-color: rgba(145, 145, 145, 0.568);}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(180, 36, 79);
+    color: white;
+    text-align: center;
+}
+
+div h1{
+    text-align: center;
+    color: rgb(240, 240, 240);
+    margin-top: 0px;
+    font-size: 5em;
+    text-shadow: 3px 6px 3px #555;
+}
+
+.card {
+    background-color: rgba(53, 51, 51, 0.658);
+    padding: 5px;
+    margin-top: 5px;
+    border-left: 5px solid #A21;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h2 {   
+    text-align: center;
+    font-weight: bold;
+    -webkit-voice-family: paul;
+    -webkit-stress: 20;
+    -webkit-richness: 90;
+    -webkit-volume: 75;
+    -o-voice-family: paul;
+    -o-stress: 20;
+    -o-richness: 90;
+    -o-volume: 75;
+    -moz-voice-family: paul;
+    -moz-stress: 20;
+    -moz-richness: 90;
+    -moz-volume: 75;
+    -ms-voice-family: paul;
+    -ms-stress: 20;
+    -ms-richness: 90;
+    -ms-volume: 75;
+    
+}
+

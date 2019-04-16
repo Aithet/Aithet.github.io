@@ -1,0 +1,50 @@
+
+div h1{
+    text-align: center;
+    color: rgb(240, 240, 240);
+    margin-top: 0px;
+    font-size: 5em;
+    text-shadow: 3px 6px 3px #555;
+}
+
+.card {
+    background-color: rgba(53, 51, 51, 0.658);
+    padding: 5px;
+    margin-top: 5px;
+    border-left: 5px solid #A21;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card1 {
+    background-color: rgba(53, 51, 51, 0.658);
+    padding: 5px;
+    margin-top: 5px;
+    margin: auto;
+    width: 300px;
+    border-left: 5px solid #A21;
+}
+
+h2 {   
+    text-align: center;
+    font-weight: bold;
+    -webkit-voice-family: paul;
+    -webkit-stress: 20;
+    -webkit-richness: 90;
+    -webkit-volume: 75;
+    -o-voice-family: paul;
+    -o-stress: 20;
+    -o-richness: 90;
+    -o-volume: 75;
+    -moz-voice-family: paul;
+    -moz-stress: 20;
+    -moz-richness: 90;
+    -moz-volume: 75;
+    -ms-voice-family: paul;
+    -ms-stress: 20;
+    -ms-richness: 90;
+    -ms-volume: 75;
+    
+}

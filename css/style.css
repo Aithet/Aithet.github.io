@@ -1,0 +1,146 @@
+﻿@page { size: 8.5in 11in; margin: 2cm }
+
+@media handheld{
+   body {
+    width: auto; /* Ширина страницы */
+   }
+} 
+
+@media print { /* Стиль для печати */
+    body {
+     font-family: Times, 'Times New Roman', serif; 
+     color: black;
+    }
+   }
+body {
+    background-image:
+    url("http://www.kensmithbasses.com/wp-content/uploads/2015/12/Grey-Radial-Gradient-Background-10.jpg ");
+       color:white;
+       font-family: Comic Sans MS, Comic Sans, cursive;
+     }
+
+
+a    {
+text-decoration:none
+     }
+
+hr {
+    width: 270px;
+    margin-bottom: 30px;
+}
+a {
+    color:rgb(192, 40, 20);
+   }
+
+p a {
+    cursor: help;
+}   
+
+p a:hover {
+   color: yellow;
+   }
+
+p  {
+    margin-left: 25px;
+    word-spacing:5px;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(180, 36, 79);
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+    color: white;
+}
+
+.panel {
+    max-height: 0;
+    text-align: center; 
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+ label {
+      display: block;
+    }
+
+ 
+.error input,
+   .error textarea {
+      border: 1px solid red;
+    }
+
+    .error {
+      color: red;
+    }
